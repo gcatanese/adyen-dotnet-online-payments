@@ -1,4 +1,4 @@
-using Adyen.Model.Notification;
+using Adyen.Webhooks.Models;
 using Adyen.Util;
 using adyen_dotnet_checkout_example.Options;
 using Microsoft.AspNetCore.Mvc;
@@ -8,6 +8,7 @@ using System;
 using System.ComponentModel;
 using System.Linq;
 using System.Threading.Tasks;
+using Adyen.AcsWebhooks.Models;
 
 namespace adyen_dotnet_checkout_example.Controllers
 {
